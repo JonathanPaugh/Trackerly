@@ -30,6 +30,8 @@ html, body {
 
 a:hover {
 	color: var(--color-accent)!important;
+	text-decoration: none;
+
 }
 
 .main {
@@ -72,15 +74,6 @@ a:hover {
 .btn:hover {
 	color: var(--color-darker);
 	background-color: var(--color-secondary);
-}
-
-.svg-primary:hover path {
-	fill: var(--color-accent)!important;
-}
-
-.svg-widget {
-	width: 128px;
-	height: 128px;
 }
 
 .text-light {
