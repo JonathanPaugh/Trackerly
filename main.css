@@ -64,6 +64,16 @@ a:hover {
 	background-position: center center;
 }
 
+.btn, .btn:hover {
+	color: var(--color-secondary);
+	border-color: var(--color-secondary);
+}
+
+.btn:hover {
+	color: var(--color-darker);
+	background-color: var(--color-secondary);
+}
+
 .svg-primary:hover path {
 	fill: var(--color-accent)!important;
 }
