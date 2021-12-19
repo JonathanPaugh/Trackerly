@@ -2,6 +2,8 @@
 
 Winter Hacks 2021
 
+https://jonathanpaugh.github.io/Trackerly/
+
 ## Inspiration
 
 We wanted to create a investment portfolio tracker app that integrates with many different platforms to allow a user to easily track all of their investments. People often run into the problems making financial decisions with their entire portfolio in mind. With Trackerly, users are able to make informed decisions because they know all the information about their assets that are stored in multiple locations.
