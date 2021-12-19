@@ -147,3 +147,9 @@ a:hover {
 .font-responsive-large {
 	font-size: var(--font-responsive-large);
 }
+
+i {
+	font-size: 90pt;
+	color: var(--color-secondary);
+	margin-bottom: 20px;
+}
