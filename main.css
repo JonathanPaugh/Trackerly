@@ -1,15 +1,139 @@
+@charset "utf-8";
+
 :root {
-    --primary-background-color: #2D3047;
-    --white: #FFFAFF;
-    --orange: #FF934F;
-    --accent: #73EEDC;
-    --accent-dark: #3E92CC;
-    --green: #04DC00;
-    --red: #E8503A;
+    --color-dark: #2D3047;
+	--color-darker: #202232;
+	--color-light: #FFFAFF;
+	--color-primary: #3E92CC;
+	--color-accent: #73EEDC;
+    --color-secondary: #FF934F;
+    --color-green: #04DC00;
+    --color-red: #E8503A;
+
+	--font-responsive-normal: calc(0.30rem + 1.1vw);
+	--font-responsive-small: calc(0.15rem + 0.8vw);
+	--font-responsive-large: calc(0.45rem + 1.4vw);
+	
+	--h1-responsive: calc(1.3rem + 5.5vw);
+	--h2-responsive: calc(1.1rem + 4.5vw);
+	--h3-responsive: calc(0.9rem + 1.5vw);
+	--h4-responsive: calc(0.7rem + 1.0vw);
+	--h5-responsive: calc(0.5rem + 0.75vw);
 }
 
-* {
-    margin: 0;
-    padding: 0;
+html, body {
+	margin: 0;
+	padding: 0;
+	color: var(--color-light)!important;
+	font-family: 'Raleway', sans-serif!important;
 }
 
+a:hover {
+	color: var(--color-accent)!important;
+}
+
+.main {
+	min-height: 100vh;
+}
+
+.features {
+	background-color: rgba(255, 255, 255, 0.25)!important;
+}
+
+.banner-splash {
+	background-image: url("./img/splash.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 60vh;
+}
+
+.banner-parallax {
+	background-image: url("./img/parallax.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	height: 45vh;
+}
+
+.banner-features {
+	background-image: linear-gradient(var(--color-dark), transparent, transparent), url("./img/features.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.svg-primary:hover path {
+	fill: var(--color-accent)!important;
+}
+
+.svg-widget {
+	width: 128px;
+	height: 128px;
+}
+
+.text-light {
+	color: var(--color-light)!important;
+}
+
+.text-dark {
+	color: var(--color-dark)!important;
+}
+
+.text-primary {
+	color: var(--color-primary)!important;
+}
+
+.text-secondary {
+	color: var(--color-secondary)!important;
+}
+
+.bg-light {
+	background-color: var(--color-light)!important;
+}
+
+.bg-dark {
+	background-color: var(--color-dark)!important;
+}
+
+.bg-darker {
+	background-color: var(--color-darker)!important;
+}
+
+.nav {
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.header-main {
+	font-size: var(--h1-responsive);
+}
+
+.header-section {
+	font-size: var(--h2-responsive);
+	letter-spacing: 0.1rem;
+}
+
+.header-sub {
+	font-size: var(--h3-responsive);
+}
+
+.header-secondary {
+	font-size: var(--h4-responsive);
+}
+
+.header-secondary-sub {
+	font-size: var(--h5-responsive);
+}
+
+.font-responsive {
+	font-size: var(--font-responsive-normal);
+}
+
+.font-responsive-small {
+	font-size: var(--font-responsive-large);
+}
+
+.font-responsive-large {
+	font-size: var(--font-responsive-large);
+}
