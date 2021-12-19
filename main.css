@@ -1,0 +1,15 @@
+:root {
+    --primary-background-color: #2D3047;
+    --white: #FFFAFF;
+    --orange: #FF934F;
+    --accent: #73EEDC;
+    --accent-dark: #3E92CC;
+    --green: #04DC00;
+    --red: #E8503A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
